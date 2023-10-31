@@ -37,7 +37,7 @@ jobs:
       uses: rossmaclean/docker-build-push-action@v0.0.27
       with:
         image: rickyraindocker/ronhunkdocker_1
-        docker-registry-url: rickyraindocker/ronhunkdocker_1
+        docker-registry-url: https://hub.docker.com/repository/docker/rickyraindocker/ronhunkdocker_1
         registry: docker.io
         docker-user: ${{ secrets.DOCKER_USERNAME }}
         dockerhub-token: ${{ secrets.DOCKER_TOKEN }}
